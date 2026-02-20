@@ -4,23 +4,20 @@ __pycache__/
 *$py.class
 
 # Environments
-.venv/
 venv/
+.venv/
 env/
-ENV/
+
+# Secret files (CRITICAL)
+.env
+.tokens/
+*.log
 
 # IDE settings
 .idea/
 .vscode/
 
-# Logs
-*.log
-logs/
-
-# Local configuration files
-.env
-
-# Distribution / packaging
+# Build and distribution
 dist/
 build/
 *.egg-info/
